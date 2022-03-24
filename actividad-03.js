@@ -45,10 +45,9 @@ var aux=0;
 
 if(numA > numB || numA == numB){
     aux = numA;
-    console.log("El numero mayor es ", numA);
+    console.log("El primer y segundo numero son iguales por lo tanto")
 }else if (numB > numA){
     aux =numB;
-    console.log("El numero mayor es ", numA);
 }
 
 if(aux > numC){
