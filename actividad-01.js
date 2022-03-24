@@ -10,6 +10,7 @@ var sumando2= Number( prompt("Ingresa el segundo número"));
 
 var resta = sumando1 - sumando2;
 alert("El resultado de la diferencia es " + resta );
+//console.log("La diferencia es", resta); otra form de mostrar
 
 /// AREA DEL CIRCULO
 var radio = Number(prompt("Ingresa el radio del círculo"))
