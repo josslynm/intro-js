@@ -8,15 +8,17 @@ console.log(sum)
 ```
 ​
 > 5
-​
+
+
 > 5
 ​
-2. Qué retona la siguiente expresión?
+1. Qué retona la siguiente expresión?
 ```
 typeof(3)
 ```
 ​
 > number
+> 
 ​
 > number
 ​
@@ -26,6 +28,7 @@ typeof(3) === typeof("3")
 ```
 ​
 > false
+> 
 ​
 > false
 ​
@@ -35,6 +38,7 @@ typeof(3) === typeof("3")
 ```
 ​
 > undefined
+> 
 ​
 > Infinity
 ​
@@ -44,6 +48,7 @@ typeof(3) === typeof("3")
 ```
 ​
 > ?
+> 
 ​
 > NaN
 ​
@@ -53,6 +58,7 @@ NaN === NaN
 ```
 ​
 > false
+> 
 ​
 > false
 ​
@@ -72,6 +78,7 @@ var hello
 ​
 > undefined
 ​
+
 > undefined
 ​
 9. Qué retona la siguiente expresión?
@@ -81,6 +88,7 @@ var hello
 ​
 > some person
 ​
+
 > some person
 ​
 10. Qué retona la siguiente expresión?
@@ -91,4 +99,5 @@ sport === undefined
 ​
 > true
 ​
+
 > true
