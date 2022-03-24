@@ -17,7 +17,7 @@ for(var i=0; i< arreglo.length ; i++){
 
 var arreglo2 = [];
 var k=0;
-while(k < 4){
+while(k < 5){
 
     arreglo2[k] =  Number(prompt("valor [" +k+ "]"))
 
