@@ -15,8 +15,10 @@
   test();
   ```
 ​
-> _your answer here_
-> _console answer_
+> undefined ya que la variable a se imprime antes de ser declarada e imprime 2 ya que foo() esta retornando
+
+> //undefined 
+> //2
 ​
 ​
 2. What is result?
@@ -36,8 +38,9 @@
   var firstResult = someFunction(9);
   var result = firstResult(2);
   ```
-> _your answer here_
-> _console answer_
+> Nada. No tiene nada para imprimir. 
+
+> Vacio
 ​
 ​
 3. What is the result of the following code? Explain your answer.
@@ -55,8 +58,9 @@
   var baz = foo();
   baz();
   ``` 
-> _your answer here_
-> _console answer_
+> creo que error porque pone a la variable baz como funcion
+
+>Uncaught SyntaxError: Invalid or unexpected token
 ​
 ​
 4. What will you see in the console for the following example?
@@ -70,5 +74,6 @@
   b(); 
   ```
 ​
-> _your answer here_
-> _console answer_
+> No hay console.log para imprimir resultado
+
+> vacio
