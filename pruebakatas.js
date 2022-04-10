@@ -16,19 +16,34 @@
 //         return false;
 //     }
 // }
+function digits(numero){
+    
+    
+  
+      var  converToString=  numero.toString();
+      var converToArray =+converToString.split(".")[1];//+ convertir a numero
+      
+      var contador = 0;
+  
+      while (converToArray >= 1) {
+          ++contador;
+          converToArray /= 10;
+      }
 
-// console.log(isMinor(12, 39, 48));
-function whichQuadrant(x,y){
-    if(x>0 && y>0){
-        return Cuadrante I;
-    }else if(x<0 && y>0){
-        return Cuadrante II;
-    }else if(x<0 && y<0){
-        return Cuadrante III;
-    }else if(x>0 && y<0){
-        return Cuadrante IV;
-    }
-}
+      if(==98.02){
+          
+      }
+  
+      if(contador == 1){
+          return "Un dígito"
+      }else if(contador === 2){
+          return "Dos dígitos"
+      }
+      
+  }
+  
+  console.log(digits(98.02))
+  console.log(digits(404.4))
 
 
-console.log(whichQuadrant(3,-4));
+    
